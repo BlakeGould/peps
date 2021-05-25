@@ -129,7 +129,7 @@ formatting such as::
 No use of globals() or locals()
 -------------------------------
 
-In the discussions on python-dev [#]_, a number of solutions where
+In the discussions on python-dev [#]_, a number of solutions were
 presented that used locals() and globals() or their equivalents. All
 of these have various problems. Among these are referencing variables
 that are not otherwise used in a closure. Consider::
